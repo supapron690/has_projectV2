@@ -35,6 +35,14 @@ html, body {
     font-size: 20px;
 }
 
+.font-size{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+
+
  /* Class btn in images display */
  .text-image {
     position: relative;

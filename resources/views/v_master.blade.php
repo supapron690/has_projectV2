@@ -13,11 +13,6 @@
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
-        
-
-
-
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
@@ -43,23 +38,23 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item">
-                                <h4 class="nav-link" href="#">หน้าแรก</h4>
+                                <a class="nav-link" href="http://localhost:8000/">หน้าแรก</a>
                             </li>
                             <li class="nav-item">
-                                <h4 class="nav-link" href="#">ค้นหาโรงพยาบาล</h4>
+                                <a class="nav-link" href="http://localhost:8000/search_hospital">ค้นหาโรงพยาบาล</a>
                             </li>
                             <li class="nav-item">
-                                <h4 class="nav-link" href="#">โรค หรือ อาการ</h4>
+                                <a class="nav-link" href="http://localhost:8000/search_disease">โรค หรือ อาการ</a>
                             </li>
                             <li class="nav-item">
-                                <h4 class="nav-link" href="#">บทความเพื่อสุขภาพ</h4>
+                                <a class="nav-link" href="http://localhost:8000/articles">บทความเพื่อสุขภาพ</a>
                             </li>
                             <li class="nav-item">
-                                <h4 class="nav-link" href="#">แชร์ประสบการณ์</h4>
+                                <a class="nav-link" href="http://localhost:8000/share_exper">แชร์ประสบการณ์</a>
                             </li>
                             </ul>
-                            <h4 class="nav-link" href="#">เข้าสู่ระบบ</h4> <a style="color:blue;"> | </a> 
-                            <h4 class="nav-link" href="#">สมัครสมาชิก</h4>
+                            <a class="nav-link" href="http://localhost:8000/login">เข้าสู่ระบบ</a> <a style="color:blue;"> | </a> 
+                            <a class="nav-link" href="#">สมัครสมาชิก</a>
                         </div>
                     </nav>
                 </div>

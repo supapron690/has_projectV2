@@ -22,4 +22,10 @@ Route::get('/', function () {
 Route::get('master', 'Master@index');
 //หน้า Login
 Route::get('login', 'Loginv@index');
-Route::get('Articles', 'Articles_forhealth@index');
+Route::get('articles', 'Articles_forhealth@index');
+Route::get('for_child', 'For_child@index');
+Route::get('search_disease', 'Search_disease@index');
+Route::get('search_hospital', 'Search_hospital@index');
+Route::get('share_exper', 'Share_exper@index');
+Route::get('share', 'Share@index');
+Route::get('health_articles', 'Health@index');
