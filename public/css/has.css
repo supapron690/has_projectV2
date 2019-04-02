@@ -1,0 +1,173 @@
+
+html, body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+/* .full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+*/
+.content {
+    text-align: center;
+} 
+.content-r {
+    text-align: right;
+} 
+
+.set-font{
+    color: #000000;
+    font-size: 20px;
+}
+
+ /* Class btn in images display */
+ .text-image {
+    position: relative;
+    text-align: center;
+    color: blue;
+
+  }
+  .centered-articleForHealth {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-image
+  {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    margin: 4px 2px;
+  }
+
+  #icon-forHelath {
+
+    background: white url(storage/Images_inView/magnifying-glass.png) no-repeat;
+    position: relative;
+    background-size: 3%;
+    background-position-x: 97%;
+    background-position-y: 50%;
+    width: 700px;
+}
+#icon{
+
+    background: white url(storage/Images_inView/magnifying-glass.png) no-repeat;
+    position: relative;
+    background-size: 3%;
+    background-position-x: 97%;
+    background-position-y: 50%;
+
+}
+
+/* หัวบนสุดของ header*/
+
+.set-head{
+    text-align: center;
+    background-color: #D3D3D3;
+}
+
+.set-background-head{
+    background-color:skyblue;
+    padding:0px;
+}
+
+
+/* carousel */
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 1;
+  }
+  
+  .services-icon {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  bgc2, .vLine, .hLine {
+      background-color: #0F52BA;
+  }
+  
+  .quote-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .services-icon {
+      font-size: 60px;
+      margin-left: 2rem;
+  }
+
+  /*  */
+  .carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
