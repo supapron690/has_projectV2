@@ -93,6 +93,62 @@ html, body {
 
 }
 
+/* search disease */
+#textshadow{
+    text-shadow: 2px 1px grey;
+}
+.hover01 figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+figure:hover+span {
+    opacity: 1;
+}
+
+  .product-img {
+    float: left;
+  }
+
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+
+  .product-info {
+    float: left;
+    height: 100px;
+    width: 250px;
+    border-radius: 0 10px 10px 0px;
+    background-color: #ffffff;
+
+  }
+
+
+
+
 /* หัวบนสุดของ header*/
 
 .set-head{
