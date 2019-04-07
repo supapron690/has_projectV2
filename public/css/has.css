@@ -1,22 +1,93 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
 html, body {
     font-family: 'Prompt', sans-serif;
     margin: 0;
 }
+<<<<<<< HEAD
 /* .full-height {
     height: 100vh;
 }
 
+=======
+
+
+/* หน้าค้นหา */
+
+#custom-search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#D9230F;
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .full-height {
+    height: 100vh;
+}
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
 .flex-center {
     align-items: center;
     display: flex;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 .position-ref {
     position: relative;
 }
 
+=======
+.position-ref {
+    position: relative;
+}
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
 .top-right {
     position: absolute;
     right: 10px;
@@ -61,8 +132,12 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+<<<<<<< HEAD
 
 
+=======
+  
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
   .centered {
     position: absolute;
     top: 40%;
@@ -212,3 +287,60 @@ background: #428bca;
 }
 
 
+<<<<<<< HEAD
+=======
+/* หน้าค้นหาโรงพยาบาล ส่วนท้ายสุด  */
+
+#textshadow{
+    text-shadow: 2px 1px grey;
+}
+.hover01 figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+figure:hover+span {
+    opacity: 1;
+}
+
+  .product-img {
+    float: left;
+  }
+
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+
+  .product-info {
+    float: left;
+    height: 130px;
+    width: 250px;
+    border-radius: 0 10px 10px 0px;
+    background-color: #ffffff;
+
+  }
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308

@@ -6,7 +6,11 @@
     <div class="row" style="background-color:#A1DEED; ">
         <div class="col-sm-4">
             <img src="{{ url('storage/Images_inView/logo.png') }}"class="img-fluid img-center"
+<<<<<<< HEAD
             style="padding-top:20px; padding-bottom:20px;" width="200" height="200">
+=======
+            style="padding-top:50px; padding-bottom:50px;" width="200" height="200">
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
         </div>
         <div class="col-sm-8">
             <div style="padding-top: 8%;">
@@ -19,7 +23,10 @@
                     <button class="btn btn-secondary" type="button">
                     <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
+<<<<<<< HEAD
                     
+=======
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
                 </div>
                 </form>
             </div>
@@ -203,6 +210,7 @@
     </div>
 
 
+<<<<<<< HEAD
 
 
 
@@ -225,3 +233,9 @@
 
 @endsection
 @section('footer')
+=======
+</div> <!-- End -->
+
+@endsection
+@section('footer')
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
