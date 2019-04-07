@@ -16,13 +16,14 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <title>Has Project</title>
         {{-- impor CSS --}}
         <link  href="/css/has.css" rel="stylesheet" type="text/css">
         <script src="/js/has.js"></script>
 
-
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 set-head">
                     <img src="{{ url('storage/Images_inView/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
@@ -34,8 +35,8 @@
                             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-        
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <div class="collapse navbar-collapse font-size" id="navbarTogglerDemo01">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="http://localhost:8000/">หน้าแรก</a>
@@ -53,22 +54,27 @@
                                 <a class="nav-link" href="http://localhost:8000/share_exper">แชร์ประสบการณ์</a>
                             </li>
                             </ul>
-                            <a class="nav-link" href="http://localhost:8000/login">เข้าสู่ระบบ</a> <a style="color:blue;"> | </a> 
-                            <a class="nav-link" href="#">สมัครสมาชิก</a>
+                            <a class="nav-link" href="http://localhost:8000/login">เข้าสู่ระบบ</a> <a style="color:blue;"> | </a>
+                            <a class="nav-link" href="http://localhost:8000/register">สมัครสมาชิก</a>
                         </div>
                     </nav>
                 </div>
 
+
     </head>
-       
+
     <body>@yield('content')</body>
 
     <footer>
         @yield('footer')
         {{-- <div class="row"> --}}
-                <div class="col-md-12" align="left" style="background-color:#D3D3D3;">
+
+            <div class="row">
+                <div class="col-md-12 set-footer"  style="background-color:#D3D3D3;">
                     <img src="{{ url('storage/Images_inView/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
                 </div>
             </div>
+
     </footer>
+</div>
 {{-- </html> --}}

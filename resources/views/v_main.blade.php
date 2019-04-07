@@ -1,76 +1,208 @@
 @extends('v_master')
 @section('content')
 
-    
-<header class="bg-primary text-center py-5 mb-4 shadow-sm border-0">
-    <div class="container "> 
-    bcxx
-    </div>
-</header>
+<div class="container-fluid padding" >
 
-<div class="col-md-12" align="center" >
-    <section class="main">
-        <div class="row">
-            <div class="col-md-10" align="left" >
-                <h5 class="text-left Fontt mb-3" style="margin-left:16px;margin-top:16px; display: inline;">บทความเพื่อสุขภาพด้านการรักษา</h5>
-            </div>
-            <div class="col-md-2" align="right">
-                <h5 class="text-right Fontt mb-3" style="margin-right:16px;margin-top:16px; display: inline;color:blue;">+ดูทั้งหมด</h5>
+    <div class="row" style="background-color:#A1DEED; ">
+        <div class="col-sm-4">
+            <img src="{{ url('storage/Images_inView/logo.png') }}"class="img-fluid img-center"
+            style="padding-top:50px; padding-bottom:50px;" width="200" height="200">
+        </div>
+        <div class="col-sm-8">
+            <div style="padding-top: 8%;">
+            <label class="set-font1">ค้นหาข้อมูลที่ต้องการ</label>
+                <form class="row ">
+                <div class="col-md-6" style="padding-right: 0px;">
+                    <input type="text" class="form-control" placeholder="เช่น โรงพยาบาล โรคหัวใจ บทความเพื่อสุขภาพ เป็นต้น">
+                </div>
+                <div class="col-md-1" style="padding-left: 0px;">
+                    <button class="btn btn-secondary" type="button">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+                </form>
             </div>
         </div>
-    <div class="col-md-11">
-        <div id="Carousel" class="carousel slide">
-        <div class="row">
-                <div class="col-md-3">
-                    <div class="card shadow border-0">
-                        <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                        <div class="card shadow border-0">
-                            <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-md-3">
-                        <div class="card shadow border-0">
-                            <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-md-3">
-                        <div class="card shadow border-0">
-                            <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                </div>
-            </div> 
-            </div>
     </div>
-{{--  --}}
-<br>
+
+    <!-- โรค หรืออาการที่ควรรู้-->
+    <div class="section" style=" padding-top: 3%;">
+            <div class="row">
+                <div class="col-sm-10" style=" padding-left: 9%;">
+                    <h5>บทความเพื่อสุขภาพ</h5>
+                </div>
+                <div class="col-sm-2 " style="text-align:right">
+                    <span>+ดูทั้งหมด</span>
+                </div>
+            </div>
+        </div>
+        <!-- Page Card -->
+        <div class="container">
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                    <img src="{{ url('storage/Images_inView/32065.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-0">Team Member</h5>
+                    <div class="card-text text-black-50">Web Developer</div>
+                </div>
+            </div>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                    <img src="{{ url('storage/Images_inView/2639.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-0">Team Member</h5>
+                    <div class="card-text text-black-50">Web Developer</div>
+                </div>
+            </div>
+            </div>
+            <!-- Team Member 3 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                    <img src="{{ url('storage/Images_inView/14964.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-0">Team Member</h5>
+                    <div class="card-text text-black-50">Web Developer</div>
+                </div>
+            </div>
+            </div>
+            <!-- Team Member 4 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+                    <img src="{{ url('storage/Images_inView/278.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-0">Team Member</h5>
+                    <div class="card-text text-black-50">Web Developer</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        </div>
+
+    <!-- บทความเพื่อสุขภาพ -->
+    <div class="section" style=" padding-top: 7%;">
+        <div class="row">
+            <div class="col-sm-10" style=" padding-left: 9%;">
+                <h5>บทความเพื่อสุขภาพ</h5>
+            </div>
+            <div class="col-sm-2 " style="text-align:right">
+                <span>+ดูทั้งหมด</span>
+            </div>
+        </div>
+    </div>
+    <!-- Page Card -->
+    <div class="container">
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/123.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/456.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/789.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/987.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    </div>
 
 
+    <!--  โรงพยาบาลใกล้เคียง -->
+    <div class="section" style=" padding-top: 3%;">
+    <div class="row">
+        <div class="col-sm-10" style=" padding-left: 9%;">
+            <h5>โรงพยาบาลใกล้เคียง</h5>
+        </div>
+        <div class="col-sm-2 " style="text-align:right">
+            <span>+ดูทั้งหมด</span>
+        </div>
+    </div>
+    </div>
 
-</section>
-</div>
+    <!-- Page Card -->
+    <div class="container">
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพชลบุรี.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพม.บูรพา.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพสมเด็จศรีราชา.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+        <!-- Team Member 4 -->
+        <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+                <img src="{{ url('storage/Images_inView/โรงพยาบาล/7957.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-0">Team Member</h5>
+                <div class="card-text text-black-50">Web Developer</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    </div>
+
+
+</div> <!-- End -->
 
 @endsection
-@section('footer') 
+@section('footer')
