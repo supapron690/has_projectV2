@@ -19,7 +19,7 @@
                     <div class="input-group col-md-8 ">
                         <input type="text" class="search-query form-control" style= "font-size:20px; height: 50px;" placeholder="เช่น โรงพยาบาลชลบุรี โรงพยาบาลระยอง เป็นต้น"/>
                             <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">     
+                                <button class="btn btn-danger" type="button" style= "height: 50px;">     
                                     <span class="fa fa-search"></span>
                                 </button>
                             </span>
