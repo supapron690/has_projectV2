@@ -32,7 +32,7 @@ html, body {
 
 .set-font{
     color: #000000;
-    font-size: 20px;
+    font-size: 25px;
 }
 .set-font1{
     color: #004F67;
@@ -205,6 +205,10 @@ background: #428bca;
         width: 50%;
 }
 
+
+
+
+
  /* search */
  .search-size {
     width: 50%;
@@ -212,3 +216,17 @@ background: #428bca;
 }
 
 
+/* map */
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:70%;
+    width:70%;
+    position:absolute;
+    }

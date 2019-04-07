@@ -1,12 +1,13 @@
 @extends('v_master')
 @section('content')
 
+<body>
 <div class="container-fluid padding" >
 
     <div class="row" style="background-color:#A1DEED; ">
         <div class="col-sm-4">
             <img src="{{ url('storage/Images_inView/logo.png') }}"class="img-fluid img-center"
-            style="padding-top:20px; padding-bottom:20px;" width="200" height="200">
+            style="padding-top:50px; padding-bottom:5%;" width="200" height="200">
         </div>
         <div class="col-sm-8">
             <div style="padding-top: 8%;">
@@ -19,7 +20,7 @@
                     <button class="btn btn-secondary" type="button">
                     <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
-ttttt
+
                 </div>
                 </form>
             </div>
@@ -85,7 +86,7 @@ ttttt
         </div>
 
     <!-- บทความเพื่อสุขภาพ -->
-    <div class="section" style=" padding-top: 7%;">
+    <div class="section" style=" padding-top: 3%;">
         <div class="row">
             <div class="col-sm-10" style=" padding-left: 9%;">
                 <h5>บทความเพื่อสุขภาพ</h5>
@@ -203,21 +204,24 @@ ttttt
     </div>
 
 
-
-
-
-
-
-
-
-
+    <!--แผนที่โรงพยาบาลใกล้เคียง-->
+    <div class="section" style=" padding-top: 3%;">
+        <div class="row">
+            <div class="col-sm-10" style=" padding-left: 9%;">
+                <h5>แผนที่โรงพยาบาลใกล้เคียง</h5>
+            </div>
+        </div>
+        </div>
+    <!--Google map-->
+    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
+    </div>
+    <!--Google Maps-->
 
 
 </div> <!-- End -->
-
-
-
-
+</body>
 
 
 
