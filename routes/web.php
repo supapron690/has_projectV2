@@ -23,3 +23,11 @@ Route::get('master', 'Master@index');
 //หน้า Login
 Route::get('login', 'Loginv@index');
 Route::get('Articles', 'Articles_forhealth@index');
+ 
+
+
+//หน้าหลังบ้าน
+Route::get('master_system', 'Master_system@index');
+Route::get('hospital', 'Hospital_system@index');
+
+
