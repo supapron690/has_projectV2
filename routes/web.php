@@ -29,11 +29,10 @@ Route::get('search_hospital', 'Search_hospital@index');
 Route::get('share_exper', 'Share_exper@index');
 Route::get('share', 'Share@index');
 Route::get('health_articles', 'Health@index');
-<<<<<<< HEAD
+// <<<<<<< HEAD
 Route::get('register', 'Register@index');
-=======
 
 // หน้าค้นหาโรงพยาบาล
 Route::get('search_hospital', 'Search_hospital@index');
 // Route::get('search_hospital/destroy/{id}', 'Search_hospitals@destroy');
->>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
+

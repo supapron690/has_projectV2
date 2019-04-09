@@ -1,41 +1,28 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
 html, body {
     font-family: 'Prompt', sans-serif;
     margin: 0;
 }
-<<<<<<< HEAD
-/* .full-height {
-    height: 100vh;
-}
-
-=======
-
 
 /* หน้าค้นหา */
 
-#custom-search-input {
+.custom-search-input {
     margin:0;
     margin-top: 10px;
     padding: 0;
 }
 
-#custom-search-input .search-query {
+.custom-search-input .search-query {
     padding-right: 3px;
     padding-right: 4px \9;
     padding-left: 3px;
     padding-left: 4px \9;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-
     margin-bottom: 0;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
-#custom-search-input button {
+.custom-search-input button {
     border: 0;
     background: none;
     /** belows styles are working good */
@@ -52,55 +39,16 @@ html, body {
 }
 
 .search-query:focus + button {
-    z-index: 3;   
+    z-index: 3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .full-height {
-    height: 100vh;
-}
->>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
-.flex-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-<<<<<<< HEAD
-
-.position-ref {
-    position: relative;
-}
-
-=======
-.position-ref {
-    position: relative;
-}
->>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-*/
 .content-c {
     text-align: center;
 }
 .content-r {
     text-align: right;
 }
-
+/* font */
 .set-font{
     color: #000000;
     font-size: 20px;
@@ -111,11 +59,16 @@ html, body {
     text-shadow: 1px 1px 3px #000000;
 }
 
-
 .font-size{
     font-size: 18px;
 }
-
+.font-size2{
+    font-size: 18px;
+    color: #4db2f9;
+}
+.font-size3{
+    font-size: 12px;
+}
 
 
 
@@ -132,12 +85,6 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-<<<<<<< HEAD
-
-
-=======
-  
->>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
   .centered {
     position: absolute;
     top: 40%;
@@ -285,10 +232,24 @@ background: #428bca;
     width: 50%;
     margin: 50px auto;
 }
+.btn-success {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 10px;
+    line-height: 30px;
+    border:3px #79dea8;
+    border-radius: 40px;
+    background: #79dea8;
+
+  }
+
+  .btn-success:hover {
+    background: #79dea8;
+    border: 3px #79dea8;
+  }
 
 
-<<<<<<< HEAD
-=======
+
 /* หน้าค้นหาโรงพยาบาล ส่วนท้ายสุด  */
 
 #textshadow{
@@ -327,9 +288,9 @@ figure:hover+span {
     opacity: 1;
 }
 
-  .product-img {
+.product-img {
     float: left;
-  }
+}
 
   .product-img img {
     border-radius: 7px 0 0 7px;
@@ -343,4 +304,25 @@ figure:hover+span {
     background-color: #ffffff;
 
   }
->>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
+  /* google map */
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:10%;
+    right:0%;
+    top:0;
+    height:70%;
+    width:80%;
+    position:absolute;
+    }
+
+/* card */
+.card-style-1{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
