@@ -33,3 +33,12 @@ Route::get('health_articles', 'Health@index');
 // หน้าค้นหาโรงพยาบาล
 Route::get('search_hospital', 'Search_hospital@index');
 // Route::get('search_hospital/destroy/{id}', 'Search_hospitals@destroy');
+
+
+//หน้าหลังบ้าน Master
+Route::get('master_system', 'Master_system@index');
+
+//หน้าหลังบ้าน
+Route::get('hospital', 'Hospital_system@index');
+Route::get('hospital/destroy/{has_id}','Hospital_system@destroy');
+Route::get('hospital/form_hospital','Hospital_system@form_hospital');
