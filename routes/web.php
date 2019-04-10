@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+use Illuminate\Support\Facades\DB;
+
 // หน้าหลักของระบบ
 Route::get('/', function () {
     return view('v_main');
@@ -38,7 +41,21 @@ Route::get('search_hospital', 'Search_hospital@index');
 //หน้าหลังบ้าน Master
 Route::get('master_system', 'Master_system@index');
 
-//หน้าหลังบ้าน
+//หน้าหลังบ้านหน้าแสดงข้อมูลโรงพยาบาล
 Route::get('hospital', 'Hospital_system@index');
 Route::get('hospital/destroy/{has_id}','Hospital_system@destroy');
 Route::get('hospital/form_hospital','Hospital_system@form_hospital');
+Route::post('hospital/store','Hospital_system@store');
+Route::get('hospital/get_amphur/{id}',function ($id) {
+    $data = DB::select("SELECT * FROM amphures WHERE province_id = ?", [$id]);
+    return $data;
+});
+
+//หน้าหลังบ้านแสดงแดงข้อมูลบทความ
+Route::get('health', 'Health_system@index');
+Route::get('health/form_health','Health_system@form_health');
+Route::post('health/store_health','Health_system@store_health');
+
+
+//หน้าหลังบ้านดูรายการแชร์ประสบการณ์
+Route::get('share_system', 'Share_system@index');
