@@ -25,7 +25,10 @@
                 </form>
             </div>
         </div>
+        </form>
     </div>
+    </div>
+</div>
 
     <!-- โรค หรืออาการที่ควรรู้-->
     <div class="section" style=" padding-top: 3%;">
@@ -33,7 +36,7 @@
                 <div class="col-sm-10" style=" padding-left: 9%;">
                     <h5>บทความเพื่อสุขภาพ</h5>
                 </div>
-                <div class="col-sm-2 " style="text-align:right">
+                <div class="col-sm-2 font-size2" style="text-align:right">
                     <span>+ดูทั้งหมด</span>
                 </div>
             </div>
@@ -44,40 +47,44 @@
             <!-- Team Member 1 -->
             <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-0 shadow">
-                    <img src="{{ url('storage/Images_inView/32065.jpg') }}" class="card-img-top" width="100" height="200">
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Team Member</h5>
-                    <div class="card-text text-black-50">Web Developer</div>
+                <img src="{{ url('storage/Images_inView/32065.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-left font-size3">
+                    <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                    <div class="card-text text-black-50"></div>
+                    <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
                 </div>
             </div>
             </div>
             <!-- Team Member 2 -->
             <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-0 shadow">
-                    <img src="{{ url('storage/Images_inView/2639.jpg') }}" class="card-img-top" width="100" height="200">
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Team Member</h5>
-                    <div class="card-text text-black-50">Web Developer</div>
+                <img src="{{ url('storage/Images_inView/2639.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                    <div class="card-text text-black-50"></div>
+                    <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
                 </div>
             </div>
             </div>
             <!-- Team Member 3 -->
             <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-0 shadow">
-                    <img src="{{ url('storage/Images_inView/14964.jpg') }}" class="card-img-top" width="100" height="200">
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Team Member</h5>
-                    <div class="card-text text-black-50">Web Developer</div>
+                <img src="{{ url('storage/Images_inView/14964.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                    <div class="card-text text-black-50"></div>
+                    <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
                 </div>
             </div>
             </div>
             <!-- Team Member 4 -->
             <div class="col-xl-3 col-md-6 mb-4">
             <div class="card border-0 shadow">
-                    <img src="{{ url('storage/Images_inView/278.jpg') }}" class="card-img-top" width="100" height="200">
-                <div class="card-body text-center">
-                    <h5 class="card-title mb-0">Team Member</h5>
-                    <div class="card-text text-black-50">Web Developer</div>
+                <img src="{{ url('storage/Images_inView/278.jpg') }}" class="card-img-top" width="100" height="200">
+                <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                    <div class="card-text text-black-50"></div>
+                    <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
                 </div>
             </div>
             </div>
@@ -91,7 +98,7 @@
             <div class="col-sm-10" style=" padding-left: 9%;">
                 <h5>บทความเพื่อสุขภาพ</h5>
             </div>
-            <div class="col-sm-2 " style="text-align:right">
+            <div class="col-sm-2 font-size2" style="text-align:right">
                 <span>+ดูทั้งหมด</span>
             </div>
         </div>
@@ -102,40 +109,44 @@
         <!-- Team Member 1 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/123.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/123.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
         <!-- Team Member 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/456.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/456.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
         <!-- Team Member 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/789.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/789.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
         <!-- Team Member 4 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/987.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/987.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
@@ -150,7 +161,7 @@
         <div class="col-sm-10" style=" padding-left: 9%;">
             <h5>โรงพยาบาลใกล้เคียง</h5>
         </div>
-        <div class="col-sm-2 " style="text-align:right">
+        <div class="col-sm-2 font-size2" style="text-align:right">
             <span>+ดูทั้งหมด</span>
         </div>
     </div>
@@ -162,47 +173,50 @@
         <!-- Team Member 1 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพชลบุรี.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพชลบุรี.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
         <!-- Team Member 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพม.บูรพา.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพม.บูรพา.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
         <!-- Team Member 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพสมเด็จศรีราชา.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/โรงพยาบาล/รพสมเด็จศรีราชา.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
         <!-- Team Member 4 -->
         <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-                <img src="{{ url('storage/Images_inView/โรงพยาบาล/7957.jpg') }}" class="card-img-top" width="100" height="200">
-            <div class="card-body text-center">
-                <h5 class="card-title mb-0">Team Member</h5>
-                <div class="card-text text-black-50">Web Developer</div>
+            <img src="{{ url('storage/Images_inView/โรงพยาบาล/7957.jpg') }}" class="card-img-top" width="100" height="200">
+            <div class="card-body text-left font-size3">
+                <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
+                <div class="card-text text-black-50"></div>
+                <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
             </div>
         </div>
         </div>
     </div>
     <!-- /.row -->
     </div>
-
 
     <!--แผนที่โรงพยาบาลใกล้เคียง-->
     <div class="section" style=" padding-top: 3%;">

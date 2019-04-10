@@ -19,7 +19,16 @@ class CreateHasHospitalsTable extends Migration
             $table->string('hos_name', 255);
             $table->string('hos_address');
             $table->string('hos_phone');
+<<<<<<< HEAD
             $table->string('hos_coo_id');
+=======
+            $table->string('has_province');
+            $table->string('has_District');
+            $table->string('has_web');
+            $table->string('has_latitude');
+            $table->string('has_longitude');
+            $table->string('has_longitude');
+>>>>>>> 65d9d0ed7e9a28ae57f7451e932c37659eba6308
             $table->rememberToken();
             $table->timestamps();
 
