@@ -8,7 +8,6 @@
         <div class="firma-card row">
             <div class="col-md-5 img-padding-no">
                 <div class="firma-resim" style="background-image:url('storage/Images_inView/Group.png');">
-                    <a href="#"></a>
                 </div>
             </div>
             <div class="col-md-7">

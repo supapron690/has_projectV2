@@ -9,7 +9,7 @@
 </div>
 
 {{-- ค้นหาข้อมูลที่ต้องการ --}}
-<div class="row" style="background-image:url('storage/Images_inView/OAV9FP0.jpg'); background-size: cover; height: 70vh;" >
+<div class="row bg_header" style="background-image:url('storage/Images_inView/OAV9FP0.jpg'); height: calc(100vh - 120px); width:auto;" >
 <div class="col-sm-12 content-c ">
     <div class="content-c" style="padding-top:10%; padding-bottom:10%;" width="200" height="200" >
     <label class="set-font1">กรุณากรอกสิ่งที่ต้องการค้นหา</label>
@@ -18,7 +18,7 @@
             <div class="input-group col-md-12" style="padding-left:30%;" >
                 <input type="text" class="search-query form-control col-md-7"
                     style= "font-size:20px; height: 50px;"
-                    placeholder="เช่น โรคหัวใจ โรคภูมิแพ้ ปวดหัว เป็นต้น">
+                    placeholder=" เช่น โรคหัวใจ โรคภูมิแพ้ ปวดหัว เป็นต้น">
                 <button class="btn btn-danger" type="button" style= "height: 50px;">
                     <span class="fa fa-search"></span>
                 </button>
@@ -46,7 +46,7 @@
 <div class="col-xl-3 col-md-6 mb-4">
 <div class="card border-0 shadow">
     <img src="{{ url('storage/Images_inView/32065.jpg') }}" class="card-img-top" width="100" height="200">
-    <div class="card-body text-left font-size3">
+    <div class="card-body text-left font-size3" style="height:130px;">
         <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
         <div class="card-text text-black-50"></div>
         <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
@@ -57,7 +57,7 @@
 <div class="col-xl-3 col-md-6 mb-4">
 <div class="card border-0 shadow">
     <img src="{{ url('storage/Images_inView/2639.jpg') }}" class="card-img-top" width="100" height="200">
-    <div class="card-body text-left font-size3">
+    <div class="card-body text-left font-size3" style="height:130px;">
         <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
         <div class="card-text text-black-50"></div>
         <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
@@ -68,7 +68,7 @@
 <div class="col-xl-3 col-md-6 mb-4">
 <div class="card border-0 shadow">
     <img src="{{ url('storage/Images_inView/14964.jpg') }}" class="card-img-top" width="100" height="200">
-    <div class="card-body text-left font-size3">
+    <div class="card-body text-left font-size3" style="height:130px;">
         <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
         <div class="card-text text-black-50"></div>
         <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>
@@ -79,7 +79,7 @@
 <div class="col-xl-3 col-md-6 mb-4">
 <div class="card border-0 shadow">
     <img src="{{ url('storage/Images_inView/278.jpg') }}" class="card-img-top" width="100" height="200">
-    <div class="card-body text-left font-size3">
+    <div class="card-body text-left font-size3" style="height:130px;">
         <p class="card-title mb-0">โรคหัวใจ (Heart Disease)</p>
         <div class="card-text text-black-50"></div>
         <div class="card-text text-black-50">คือ โรคต่าง ๆ ที่ส่งผลกระทบต่อการทำงานของหัวใจ โดยโรคหัวใจสามารถแบ่งย่อยได้เป็นหลายกลุ่มโรค</div>

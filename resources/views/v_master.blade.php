@@ -18,7 +18,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" href="/lib/w3.css">
+        {{-- button upload--}}
+        {{-- <link rel="stylesheet" href="/lib/w3.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> --}}
 
 
 
@@ -44,7 +48,7 @@
     <header>
             <div class="row">
                 <div class="col-md-12 set-head" style="padding-right:0px; padding-left:0px;">
-                    <img src="{{ url('storage/Images_inView/logo-01.png') }}" alt="Cinque Terre" width="200" height="100">
+                    <img src="{{ url('storage/Images_inView/logo-01.png') }}" width="200" height="100">
                 </div>
             </div>{{-- end row --}}
 
@@ -67,7 +71,7 @@
                                 <a class="nav-link" href="http://localhost:8000/search_disease">โรค หรือ อาการ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:8000/articles">บทความเพื่อสุขภาพ</a>
+                                <a class="nav-link" href="http://localhost:8000/articles_forhealth">บทความเพื่อสุขภาพ</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="http://localhost:8000/share_exper">แชร์ประสบการณ์</a>

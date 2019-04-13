@@ -22,17 +22,28 @@ Route::get('/', function () {
 Route::get('master', 'Master@index');
 //หน้า Login
 Route::get('login', 'Loginv@index');
-Route::get('articles', 'Articles_forhealth@index');
+Route::get('articles_forhealth', 'Articles_forhealth@index');
 Route::get('for_child', 'For_child@index');
 Route::get('search_disease', 'Search_disease@index');
 Route::get('search_hospital', 'Search_hospital@index');
 Route::get('share_exper', 'Share_exper@index');
 Route::get('share', 'Share@index');
 Route::get('health_articles', 'Health@index');
-// <<<<<<< HEAD
 Route::get('register', 'Register@index');
 
 // หน้าค้นหาโรงพยาบาล
 Route::get('search_hospital', 'Search_hospital@index');
 // Route::get('search_hospital/destroy/{id}', 'Search_hospitals@destroy');
+
+
+// หน้าบทความ
+Route::get('content', 'Content_article@index');
+
+
+// หน้าบทความแชร์
+Route::get('content_share', 'Content_share@index');
+
+// หน้าบทความทั้งหมด
+Route::get('content_all', 'Content_all@index');
+
 
