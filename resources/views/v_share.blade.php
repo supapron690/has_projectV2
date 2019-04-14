@@ -10,24 +10,24 @@
 </div>
 
 {{-- ขั้นตอนที่ 1 --}}
-<div class="row bg_header" style="background-image:url('storage/Images_inView/OBFCYE0.jpg'); height: calc(100vh - 120px); width:auto;" >
+<div class="row bg_header view overlay zoom" style="background-image:url('storage/Images_inView/OBFCYE0.jpg'); height: calc(100vh - 120px); width:auto;" >
 <div class="col-sm-12 content-c ">
     <div class="container">
     <div class="content-c">
         <p class="set-font1" style="text-align:left; padding-top:2%; padding-bottom:2%;">ขั้นตอนที่ 1 : เลือกหมวดหมู่ที่ต้องการแชร์ประสบการณ์</p>
         <div class="row" >
             <div class="col-md-1" style="padding-left:12%;"></div>
-            <div  class="col-xl-3 col-md-3 mb-4">
+            <div  class="col-xl-3 col-md-3 mb-4 hover-zoomin">
                 <img id"m1" onclick="myFunction_1()"
                 src="{{ url('storage/Images_inView/ปุ่ม-1.png') }}"class="img-fluid"
                 style="padding-top:10px; padding-bottom:5%;" width="300" height="300" >
             </div>
-            <div class="col-xl-3 col-md-3 mb-4">
+            <div class="col-xl-3 col-md-3 mb-4 hover-zoomin">
                 <img id="m2" onclick="myFunction_2()"
                 src="{{ url('storage/Images_inView/ปุ่ม-2.png') }}"class="img-fluid"
                 style="padding-top:10px; padding-bottom:5%;" width="300" height="300" >
             </div>
-            <div class="col-xl-3 col-md-3 mb-4">
+            <div class="col-xl-3 col-md-3 mb-4 hover-zoomin">
                 <img id="m3" onclick="myFunction_3()"
                 src="{{ url('storage/Images_inView/ปุ่ม-3.png') }}"class="img-fluid "
                 style="padding-top:10px; padding-bottom:5%;" width="300" height="300" >

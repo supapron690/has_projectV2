@@ -16,11 +16,11 @@
         <form>
             <div class="custom-search-input row" >
             <div class="input-group col-md-12" style="padding-left:0%;">
-                <input type="text" class="search-query form-control col-md-7"
+                <input type="text" class="search-query form-control col-md-9"
                 style= "font-size:20px; height: 50px;"
                 placeholder=" เช่น โรงพยาบาล โรคหัวใจ บทความเพื่อสุขภาพ เป็นต้น">
-                    <button class="btn btn-danger" type="button" style= "height: 50px;">
-                        <span class="fa fa-search"></span>
+                    <button class=" btn btn-primary" type="button" style= "height: 46px;">
+                        <i class="fa fa-search"></i>
                     </button>
             </div>
             </div>
@@ -33,7 +33,7 @@
 <div class="section" style=" padding-top: 3%;">
 <div class="row">
     <div class="col-sm-10" style=" padding-left: 9%;">
-        <h5>แชร์ประสบการณ์ด้านการรักษา</h5>
+        <h5>โรค หรืออาการที่ควรรู้</h5>
     </div>
     <div class="col-sm-2 font-size2" style="text-align:right">
     <a href="http://localhost:8000/content_all">
@@ -161,6 +161,78 @@
 </div>
 </div> {{-- end row page card--}}
 
+{{-- แชร์ประสบการณ์ --}}
+<div class="section" style=" padding-top: 3%;">
+<div class="row">
+    <div class="col-sm-10" style=" padding-left: 9%;">
+        <h5>แชร์ประสบการณ์</h5>
+    </div>
+    <div class="col-sm-2 font-size2" style="text-align:right">
+    <a href="http://localhost:8000/content_all">
+        <span>+ดูทั้งหมด</span>
+    </a>
+    </div>
+</div>
+</div>
+
+{{-- Page Card --}}
+<div class="container">
+<div class="row">
+{{-- Team Member 1 --}}
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-0 shadow">
+    <img src="{{ url('storage/Images_inView/pig.jpg') }}" class="card-img-top" width="100" height="200">
+    <div class="card-body text-left font-size3" style="height:130px;">
+        <span class="card-title mb-0"><b>สุขภาพดีขึ้นเพียงแค่ลิกกินหมูปิ้ง และชาเย็น</b></span>
+        <div class="card-text text-black-50"></div>
+        <span>สมาชิก: <span>วรศักดิ์</span></span>
+        <div class="card-text text-black-50"></div>
+        <span>8 มกราคม 2562 <span>เวลา: 12.30 น. </span></span>
+    </div>
+</div>
+</div>
+{{-- Team Member 2 --}}
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-0 shadow">
+    <img src="{{ url('storage/Images_inView/fish.jpg') }}" class="card-img-top" width="100" height="200">
+    <div class="card-body text-left font-size3" style="height:130px;">
+        <span class="card-title mb-0"><b>ไก่ทอด ปลาทอด กับสุขภาพหัวใจ</b></span>
+        <div class="card-text text-black-50"></div>
+        <span>สมาชิก: <span>สุภาพร</span></span>
+        <div class="card-text text-black-50"></div>
+        <span>7 มกราคม 2562 <span>เวลา: 11.20 น. </span></span>
+    </div>
+</div>
+</div>
+{{-- Team Member 3 --}}
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-0 shadow">
+    <img src="{{ url('storage/Images_inView/bean.jpg') }}" class="card-img-top" width="100" height="200">
+    <div class="card-body text-left font-size3" style="height:130px;">
+        <span class="card-title mb-0"><b>ถั่ว 5 สี ธัญพืชดี ช่วยปรับสมดุลในร่างกาย</b></span>
+        <div class="card-text text-black-50"></div>
+        <span>สมาชิก: <span>พิชญ์สิริน อุษาวิโรจน์</span></span>
+        <div class="card-text text-black-50"></div>
+        <span>6 มกราคม 2562 <span>เวลา: 10.31 น. </span></span>
+    </div>
+</div>
+</div>
+{{-- Team Member 4 --}}
+<div class="col-xl-3 col-md-6 mb-4">
+<div class="card border-0 shadow">
+    <img src="{{ url('storage/Images_inView/veget.jpg') }}" class="card-img-top" width="100" height="200">
+    <div class="card-body text-left font-size3" style="height:130px;">
+        <span class="card-title mb-0"><b>หัวไชเท้า สรพพคุณเยอะ รักษาฝ้า - บำรุงร่างกาย</b></span>
+        <div class="card-text text-black-50"></div>
+        <span>สมาชิก: <span>วรศักดิ์</span></span>
+        <div class="card-text text-black-50"></div>
+        <span>8 มกราคม 2562 <span>เวลา: 12.30 น. </span></span>
+    </div>
+</div>
+</div>
+
+</div>
+</div> {{-- end row page card--}}
 
 {{-- โรงพยาบาลใกลเคียง --}}
 <div class="section" style=" padding-top: 3%;">

@@ -15,13 +15,15 @@
     <label class="set-font1">กรุณากรอกสิ่งที่ต้องการค้นหา</label>
     <form>
         <div class="custom-search-input row" >
-        <div class="input-group col-md-12" style="padding-left:30%;" >
-            <input type="text" class="search-query form-control col-md-7"
+        <div class="input-group col-md-12" style="padding-left:20%;" >
+            <form>
+            <input type="text" class="search-query form-control col-md-9"
                 style= "font-size:20px; height: 50px;"
                 placeholder=" เช่น โรงพยาบาล โรคหัวใจ บทความสุขภาพ เป็นต้น">
-                    <button class="btn btn-danger" type="button" style= "height: 50px;">
+                    <button class="btn btn-primary" type="button" style= "height: 46px;">
                         <span class="fa fa-search"></span>
                     </button>
+            </form>
         </div>
         </div>
     </form>

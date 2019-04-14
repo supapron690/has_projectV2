@@ -48,8 +48,8 @@
                             <div class="col-md-8 padding"><input type="text" class="search-query form-control font-size3"
                                 style= "height: 40px; " placeholder="เบอร์โทรศัพท์มือถือ"></div>
                             <div class="col-md-1"></div>
-                            <div class="col-md-2 font-size3"><button type="button" class="btn font-size3"
-                                style="height:40px; width:50px; color:white; background-color:#FF9800" >ยืนยัน</button></div>
+                            <div class="col-md-2 font-size3"><button type="button" class="btn btn-outline-warning"
+                                style="height:40px; width:50px; color:white;  background-color:#ffc107;" >ยืนยัน</button></div>
                         </div>
                         </div>
 

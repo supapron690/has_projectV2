@@ -38,7 +38,7 @@ p{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color:#D9230F;
+    color:#0069D9;
 }
 
 .search-query:focus + button {
@@ -143,6 +143,7 @@ p{
     background-color:skyblue;
     padding:0px;
 }
+
 /* ล่างสุดของ header*/
 
 .set-footer{
@@ -356,12 +357,69 @@ figure:hover+span {
     position:absolute;
     }
 
-/* card */
+/* card_1 */
 .card-style-1{
     padding-left: 0%;
     padding-right: 0%;
 }
+/* card_2 */
+.lib-panel {
+    margin-bottom: 0Px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
 
+.lib-panel .row,
+.lib-panel .col-md-6 {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.lib-panel .lib-row {
+    padding: 0 3px 0 3px;
+}
+
+.lib-panel .lib-row.lib-header {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+   /*  margin: 7px 0 7px 0; */
+}
+
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+}
+
+.no-padding {
+    padding: 0;
+}
 /* login */
 .firma-card{
     background: #fff;
@@ -446,4 +504,66 @@ figure:hover+span {
     padding-bottom:2%;
     margin-top: 0px;"
 }
+
+/*ZoomIn Hover Effect*/
+.hover-zoomin a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+  .hover-zoomin img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .hover-zoomin:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+
+  /* Accordion with icon change */
+  .myaccordion {
+
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  }
+
+  .myaccordion .card,
+  .myaccordion .card:last-child .card-header {
+    border: none;
+  }
+
+  .myaccordion .card-header {
+    border-bottom-color: #EDEFF0;
+    background: transparent;
+  }
+
+  .myaccordion .fa-stack {
+    font-size: 18px;
+  }
+
+  .myaccordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: #004987;
+    padding: 0;
+  }
+
+  .myaccordion .btn-link:hover,
+  .myaccordion .btn-link:focus {
+    text-decoration: none;
+  }
+
+  .myaccordion li + li {
+    margin-top: 10px;
+  }
+
+
 
