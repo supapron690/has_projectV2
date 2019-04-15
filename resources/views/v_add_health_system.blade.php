@@ -3,7 +3,7 @@
 {{-- content --}}
 
   
-<div class="container" style="padding-top: 40px;">  
+{{-- <div class="container" style="padding-top: 40px;">   --}}
     <div class="card">
             <div class="card-header">
                 <h3>เพิ่มข้อมูลบทความเพื่อสุขภาพ</h3>
@@ -54,7 +54,7 @@
             </div> 
          
     </div>
-</div>
+{{-- </div> --}}
 @endsection
 
 

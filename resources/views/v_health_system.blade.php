@@ -1,7 +1,7 @@
 @extends('v_master_system')
 @section('content')
 
-    <div class="content" style="padding-top: 40px;">
+    {{-- <div class="content" style="padding-top: 40px;"> --}}
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
@@ -16,14 +16,18 @@
                                     <thead>
                                       <th>ลำดับ</th>
                                     	<th>ชื่อเรื่อง</th>
-                                    	<th>หมวดหมู่บทความ</th>
+                                        <th>หมวดหมู่บทความ</th>
+                                        <th>เครื่องมือ</th>
                                     </thead>
                                     <tbody>
+                                    <?php $count=0; ?>
                                     @foreach ($healths as $health) 
+                                    <?php $count++; ?>
                                         <tr>
-                                        	<td>{{$health->ha_id}}</td>
+                                        	<td><?php echo ($count); ?></td>
                                         	<td>{{$health->ha_name}}</td>
-                                        	<td>{{$health->ha_type}}</td>
+                                            <td>{{$health->ha_type}}</td>
+                                            <td> <a href="{{url('/health/edit/'.$health->ha_id)}}"> <button type="button" class="btn btn-warning">แก้ไข</button></a> &nbsp; <a href="{{url('/health/destroy/'.$health->ha_id)}}"><button type="button" class="btn btn-danger">ลบ</button></a></td>
                                         </tr>
                                     @endforeach    
                                     </tbody>
@@ -38,7 +42,7 @@
             </div>
         </div>
    </div>
-</div> 
+{{-- </div>  --}}
 
 @endsection
  

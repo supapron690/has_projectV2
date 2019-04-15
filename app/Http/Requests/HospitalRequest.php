@@ -30,6 +30,8 @@ class HospitalRequest extends FormRequest
             'hos_address' => 'required',
             'hos_latitude' => 'required',
             'hos_longitude' => 'required',
+            'hos_phone' => 'required',
+            'hos_web' => 'required',
             'hos_img' => 'mimes:jpeg,jpg,png',
         ];
     }
@@ -44,6 +46,8 @@ class HospitalRequest extends FormRequest
             'hos_address.required' => 'กรุณากรอกที่อยู่',
             'hos_latitude.required' => 'กรุณากรอละติจูด',
             'hos_longitude.required' => 'กรุณากรอกลองติจูด',
+            'hos_phone.required' => 'กรุณากรอละติจูด',
+            'hos_web.required' => 'กรุณากรอกลองติจูด',
             'hos_img.required' => 'กรุณาเลือกไฟล์ภาพนามสกุล jpeg,jpg,png',
                
         ];

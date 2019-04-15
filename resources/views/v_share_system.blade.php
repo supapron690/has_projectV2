@@ -19,9 +19,10 @@
                                         <th>วันที่เพิ่มข้อมูล</th>
                                     </thead>
                                     <tbody>
+                                    <?php $count=0; ?>
                                     @foreach ($shares as $share) 
                                         <tr>
-                                        	<td>{{$share->exp_id}}</td>
+                                            <td><?php echo ($count); ?></td>
                                         	<td>{{$share->exp_name}}</td>
                                             <td>{{$share->exp_type}}</td>
                                             <td>{{$share->exp_date}}</td>

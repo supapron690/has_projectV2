@@ -14,9 +14,8 @@
 use Illuminate\Support\Facades\DB;
 
 // หน้าหลักของระบบ
-Route::get('/', function () {
-    return view('v_main');
-});
+Route::get('/', 'Main@index');
+
 
 // Template หลัก
 // Route::get('/', function () {
@@ -37,13 +36,21 @@ Route::get('health_articles', 'Health@index');
 Route::get('search_hospital', 'Search_hospital@index');
 // Route::get('search_hospital/destroy/{id}', 'Search_hospitals@destroy');
 
+// หน้าสมัครสมาชิก
+Route::get('register', 'Register@index');
+
+
+// หน้าเนื้อหาบทความ
+Route::get('content_article', 'Content_article@index');
 
 //หน้าหลังบ้าน Master
 Route::get('master_system', 'Master_system@index');
 
 //หน้าหลังบ้านหน้าแสดงข้อมูลโรงพยาบาล
 Route::get('hospital', 'Hospital_system@index');
-Route::get('hospital/destroy/{has_id}','Hospital_system@destroy');
+Route::get('hospital/destroy/{hos_id}','Hospital_system@destroy');
+Route::get('hospital/edit/{hos_id}','Hospital_system@edit');
+Route::get('hospital/update/{hos_id}','Hospital_system@update');
 Route::get('hospital/form_hospital','Hospital_system@form_hospital');
 Route::post('hospital/store','Hospital_system@store');
 Route::get('hospital/get_amphur/{id}',function ($id) {
@@ -55,7 +62,17 @@ Route::get('hospital/get_amphur/{id}',function ($id) {
 Route::get('health', 'Health_system@index');
 Route::get('health/form_health','Health_system@form_health');
 Route::post('health/store_health','Health_system@store_health');
+Route::get('health/destroy/{ha_id}','Health_system@destroy');
+Route::get('health/edit/{ha_id}','Health_system@edit');
 
 
 //หน้าหลังบ้านดูรายการแชร์ประสบการณ์
 Route::get('share_system', 'Share_system@index');
+
+
+//หน้าหลังบ้านโรคหรืออาการ
+Route::get('diseases', 'Diseases_symptoms@index');
+Route::get('diseases/form_diseases', 'Diseases_symptoms@form_diseases');
+Route::post('diseases/store_diseases','Diseases_symptoms@store_diseases');
+Route::post('diseases/destroy/{ds_id}','Diseases_symptoms@destroy');
+Route::get('diseases/edit/{ds_id}','Diseases_symptoms@edit');
